@@ -1,0 +1,3 @@
+Pior caso: O(N) 
+Melhor caso: Ω(1)
+Apenas limite superior
