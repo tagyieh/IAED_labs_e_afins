@@ -1,0 +1,5 @@
+Pior caso: O(n)
+
+Melhor caso: Ω(1)
+
+Não é possivel estabelecer uma complexidade assimptótica apertada para esta função, visto que o pior caso é diferente do melhor caso.
