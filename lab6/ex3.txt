@@ -1,5 +1,5 @@
 Pior caso: O(N) 
 
-Melhor caso: Ω(1)
+Melhor caso: Ω(N)
 
-Apenas limite superior
+Limite apertado
