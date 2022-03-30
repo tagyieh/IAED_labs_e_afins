@@ -1,0 +1,3 @@
+Melhor caso - Ω(N)
+
+Se o vetor estiver ordenado, o algoritmo percorrê-lo-á apenas uma vez e não trocará nenhum elemento, pelo que termina.
