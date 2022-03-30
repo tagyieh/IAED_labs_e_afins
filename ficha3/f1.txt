@@ -1,0 +1,12 @@
+I
+
+0 - {20, 11, 16, 8, 21, 12, 10, 14, 17, 6}
+1 - {11, 16, 8, 20, 12, 10, 14, 17, 6, 21}
+2 - {11, 8, 16, 12, 10, 14, 17, 6, 20, 21}
+
+R - {11, 8, 16, 12, 10, 14, 17, 6, 20, 21}
+
+II
+
+Nesta função, temos um for dentro de for. O loop interior, da primeira vez, é executado n vezes, da segunda vez, (n-1) vezes... até 1.
+Assim estamos na presença de um somatório, cuja soma iguala (N^2)/2, pelo que a complexidade no pior caso é O(N^2).
