@@ -1,8 +1,8 @@
 I
 
 XXX - exch(v[i],v[j]);
-YYY - exch(v[i],v[right]);
-ZZZ - return i;
+YYY - exch(v[j],v[right]);
+ZZZ - return j;
 
 II
 
