@@ -1,0 +1,9 @@
+I
+
+XXX - exch(v[i],v[j]);
+YYY - exch(v[i],v[right]);
+ZZZ - return i;
+
+II
+
+O(log(n))
