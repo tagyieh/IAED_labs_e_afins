@@ -35,12 +35,13 @@ void free_list(list *l)
 
 void add_last(list *l, char c)
 {
-  node *aux, *new_node = (node *) malloc(sizeof(node));
+  node *aux=l->head, *new_node = (node *) malloc(sizeof(node));
   if (l->head==NULL)
   {
     l->head = new_node;
     new_node->previous = NULL;
     new_node->c = c;
+    new_node->next=NULL;
     l->last = new_node;
     return;
   }
@@ -48,6 +49,7 @@ void add_last(list *l, char c)
   aux->next = new_node;
   new_node->previous = aux;
   new_node->c = c;
+  new_node->next=NULL;
   l->last = new_node;
 }
 
